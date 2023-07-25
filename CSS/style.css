@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    margin-top: 0px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50% , rgba(0, 0, 0, 0.5)50%), url(../Images/img6.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.nav-bar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 100%;
+    float: left;
+    height: 70px;
+}
+.logo{
+    text-align: left;
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+/* Menu  */
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right:0;
+    padding-right: 5px;
+}
+.btn{
+    background-color: #ff7200;
+    color: #fff;
+    font-size: 14px;
+    margin-left: -3px;
+    border:none;
+    padding: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 5px;
+}
+.srch:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+#content{
+    color: #fff;
+    clear:both;
+    width: 1200px;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+#content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+#content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+#content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+#content .cn:hover{
+    background-color: #fff;
+    color: #ff7200;
+}
+#content .cn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transform: 0.3s ease;
+}
+#content .cn a:hover{
+    color: #ff7200;
+}
+#content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.form{
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    height: 380px;
+    width: 250px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #ff7200;
+    margin: 2px;
+    padding: 5px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    height: 40px;
+    width: 240px;
+    background-color: #ff7200;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.btnn:hover{
+    background-color: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+.btnn a:hover{
+    color: #ff7200;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.form .link a{
+    color: #ff7200;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.form .liw{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
